@@ -1,3 +1,6 @@
+# Ignore compiled code
+/lib
+
 # Logs
 logs
 *.log

@@ -1,0 +1,40 @@
+{
+  "name": "utets",
+  "version": "1.0.0",
+  "description": "General purpose utility library for TypeScript with common types and functions",
+   "main": "lib/index.js",
+   "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MageCoven/utets.git"
+  },
+  "keywords": [
+    "typescript",
+    "utility"
+  ],
+  "author": "MageCoven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MageCoven/utets/issues"
+  },
+  "homepage": "https://github.com/MageCoven/utets#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.8.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
