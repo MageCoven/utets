@@ -1,3 +1,5 @@
+export function random(): number;
+export function random(min: number, max: number): number;
 export function random(min?: number, max?: number): number {
   if (typeof min === 'undefined' && typeof max === 'undefined') {
     return Math.random();
