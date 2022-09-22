@@ -1,9 +1,9 @@
 {
   "name": "utets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "General purpose utility library for TypeScript with common types and functions",
-   "main": "lib/index.js",
-   "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
