@@ -1,6 +1,6 @@
 {
     "name": "utets",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "description": "General purpose utility library for TypeScript with common types and functions",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
